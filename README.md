@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+Getting to know design patterns, concisely! **This repo is still a draft**.
 
-You can use the [editor on GitHub](https://github.com/Pragmin/DesignPatternsAtAGlance/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Factory
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```clike
+void CreateConnection() {
+	
+	return new 
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Decorator
+A decorator wrap an object. it maintains its interface but changes its behavior.
+- Decorator vs inheriance: todo
+    
+# Proxy
+A proxy wraps an object that is remote from the  point of view of the program.
 
-### Jekyll Themes
+# Adapter
+An adapter wraps an object. it changes its interface to comply with another interface. It does not change the object behavior.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Pragmin/DesignPatternsAtAGlance/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Mediator
 
-### Support or Contact
+# Observer
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Publisher/subscriber
