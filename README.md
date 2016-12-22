@@ -2,11 +2,14 @@ Getting to know design patterns, concisely! **This repo is still a draft**.
 
 # Factory
 A factory creates an object complying with a given interface.
+
 **Real life**: You call for a Taxi. Because Joe is on vacations, Bob is coming. You don't care. But it was insightful not to call for Joe directly!
 
 # Decorator
 A decorator wraps an object. it maintains its interface but changes its behavior.
+
 **Real life**: A wattmeter plugged in an electrical outlet.
+
 **Software**:  no need to define what is compressing an encrypted 
 ```
 Stream stream1 = new StreamToFile("my-file.txt");
