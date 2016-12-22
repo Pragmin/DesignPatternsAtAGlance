@@ -8,7 +8,8 @@ A factory creates an object complying with a given interface.
 # Decorator
 A decorator wraps an object. It maintains its interface but changes its behavior.
 
-**Real life**: A wattmeter plugged in an electrical outlet.
+**Real life**: We sell a dessert with some extras on it.  
+![Dessert making](img/decorator_dessert_making.png)
 
 **Software**:
 ```
