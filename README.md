@@ -26,8 +26,14 @@ A proxy wraps an object that is remote from the  point of view of the program.
 An adapter wraps an object. it changes its interface to comply with another interface. It does not change the object behavior.
 **Real life**: A 2.5mm to 3.5mm headphone adapter
 
+#Visitor
+A visitor externalize and centralize some operational logic from classes to another external class.  
+**Real life**: An online shopping cart computing total price with taxes by itself, instead of retrieve all precomputed price from items.
+
+**Software**: Debug and display code can be externalized from classes in an other new class.
+
 # The chain of responsability
 **Real life**: 
 
 # TODO
-Mediator, Observer, Publisher/subscriber, Visitor
+Mediator, Observer, Publisher/subscriber
