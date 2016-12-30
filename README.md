@@ -32,8 +32,16 @@ A visitor externalize and centralize some operational logic from classes to anot
 
 **Software**: Debug and display code can be externalized from classes in an other new class.
 
+# Observer
+An observable object send notifications to registered observers.  
+**Real life**: When in an auction, a bidder raise his hand and the auctioneer accept the new bid price, all bidders know it.
+
+**Software**:
+Button b = new Button("button");
+b.addActionListener(this);
+
 # The chain of responsability
 **Real life**: 
 
 # TODO
-Mediator, Observer, Publisher/subscriber
+Mediator, Publisher/subscriber
