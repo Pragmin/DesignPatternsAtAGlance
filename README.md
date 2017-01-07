@@ -20,7 +20,9 @@ Stream stream3 = new StreamEncrypter(stream2);
 **Decorator vs inheritance**: in the simple previous example, there is no need to define a StreamCompressorEncrypter implementation.
 
 # Proxy
-A proxy wraps an object that is remote from the  point of view of the program.
+A proxy wraps an object, providing the same interface. It allow access control, caching, and eventually a remote use.
+
+**Real life**: Before you can retrieve any money from an ATM, some check has to be done on your Bank servers.
 
 # Adapter
 An adapter wraps an object. it changes its interface to comply with another interface. It does not change the object behavior.
